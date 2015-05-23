@@ -10,7 +10,7 @@ There are 79 measurements included in this tidy dataset:
 
 These measuerments are the "average.of":
 
-mean and std for
+the mean and std for
 tBodyAcc-XYZ: the body acceleration signal measured in X,Y and Z directions
 
 NOTE--this means that the first 6 measurements are: 
