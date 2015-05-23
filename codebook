@@ -1,0 +1,72 @@
+Code Book for "tidydata":
+
+The "tidydata" dataset is in wide format and contains 40 observations and 81 variables.
+
+activity.name : the activity performed by the subject
+subject : identifies the subject who preformed the activity
+average.of. : the average of each measurement included in the dataset
+
+There are 79 measurements included in this tidy dataset:
+
+These measuerments are the "average.of":
+
+mean and std for
+tBodyAcc-XYZ: the body acceleration signal measured in X,Y and Z directions
+
+NOTE--this means that the first 6 measurements are: 
+  1. the mean for body acceleration in X direction (tBodyAcc-mean()-X) 
+  2. the mean for body acceleration in Y direction (tBodyAcc-mean()-Y) 
+  3. the mean for body acceleration im Z direction (tBodyAcc-mean()-Z)
+  4. the standard deviation for body acceleration in X direction (tBodyAcc-std()-X)
+  5. the standard deviation for body acceleration in Y direction (tBodyAcc-std()-Y)
+  6. the standard deviation for body acceleration in Z direction (tBodyAcc-std()-Z)
+  This pattern continues for all measurements with X,Y and Z 
+
+mean and std for
+tGravityAcc-XYZ: the gravity acceleration signal measured in X,Y and Z directions
+
+mean and std for
+tBodyAccJerk-XYZ: the body jerk acceleration signal measured in X,Y and Z directions
+
+mean and std for
+tBodyGyro-XYZ: the body gyro signal measured in X,Y and Z directions
+
+mean and std for
+tBodyGyroJerk-XYZ: the body gyro jerk signal measured in X,Y and Z directions
+
+mean and std for
+tBodyAccMag: the magnitude of body acceleration
+
+mean and std for
+tGravityAccMag: the magnitude of gravity acceleration
+
+mean and std for
+tBodyAccJerkMag: the magnitude of body jerk acceleration
+
+mean and std for
+tBodyGyroMag: the magnitude of body gyro 
+
+mean and std for
+tBodyGyroJerkMag: the magnitude of body gyro jerk 
+
+mean and std and meanFreq (mean frequency) for
+fBodyAcc-XYZ: Fast Fourier Transform (FFT) applied to the body acceleration signal measured in X,Y and Z directions
+
+mean and std and meanFreq for
+fBodyAccJerk-XYZ: Fast Fourier Transform (FFT) applied to body acceleration jerk measured in X,Y and Z directions
+
+mean and std and meanFreq for
+fBodyGyro-XYZ: Fast Fourier Transform (FFT) applied to body gyro signal measure in X,Y and Z directions
+
+mean and std and meanFreq for
+fBodyAccMag: Fast Fourier Transform (FFT) applied to body acceleration magnitude
+
+mean and std and meanFreq for
+fBodyAccJerkMag: Fast Fourier Transform (FFT) applied to body acceleration jerk magnitude
+
+mean and std and meanFreq for
+fBodyGyroMag: Fast Fourier Transform (FFT) applied to body gyro magnitude
+
+mean and std and meanFreq for
+fBodyGyroJerkMag: Fast Fourier Transform (FFT) applied to body gyro jerk magnitude
+
