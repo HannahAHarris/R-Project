@@ -8,6 +8,9 @@ NOTE: This task was completed successfully, however the steps were not executed 
 
 The R script "run_analysis.R" does the following:
 
+First, you must download the Sumsung data 
+(available at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip it to your working directory. Then:
+
 1.Creates a complete test dataset with appropriate column names by doing the following:
   a. reads the test dataset and adds headers to the dataset using the test features data
   b. reads the test labels dataset and creates a header for this dataset  
