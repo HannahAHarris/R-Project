@@ -6,10 +6,10 @@ The overall objective for this project is to:
   
 NOTE: This task was completed successfully, however the steps were not executed in the exact order above. See the explaination below for details. 
 
-The R script "run_analysis.R" does the following:
-
 First, you must download the Sumsung data 
-(available at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip it to your working directory. Then:
+(available at: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip it to your working directory.
+
+The R script "run_analysis.R" does the following:
 
 1.Creates a complete test dataset with appropriate column names by doing the following:
   a. reads the test dataset and adds headers to the dataset using the test features data
